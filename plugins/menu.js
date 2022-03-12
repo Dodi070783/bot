@@ -22,8 +22,6 @@ let tags = {
   'vote': 'Voting',
   'absen': 'Absen',
   'quran': 'Al Qur\'an',
-  'jadibot': 'Jadi Bot',
-  'owner': 'Owner',
   'host': 'Host',
   'advanced': 'Advanced',
   'info': 'Info',
@@ -31,17 +29,17 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-╭─「 %me 」
+╭─「 *REPLAN BOTZ* 」
 │ %ucapan, %name!
-│
+│ 
+│ *BOTZ REPLAN*
 │ Tanggal: *%week %weton, %date*
 │ Tanggal Islam: *%dateIslamic*
 │ Waktu: *%time*
-│
+│ *NO PEMBUAT BOT* wa.me/6285883879713
 │ Uptime: *%uptime (%muptime)*
+│ *LU KALO MAU MAKE. MAKE AJA TOL*
 │ Database: %rtotalreg of %totalreg
-│ Github:
-│ %github
 ╰────
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
